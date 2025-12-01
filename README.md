@@ -45,7 +45,7 @@ mini-pinterest/
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/your-username/mini-pinterest.git
+git clone https://github.com/jenojane/mini-pinterest.git
 cd mini-pinterest
 ```
 
