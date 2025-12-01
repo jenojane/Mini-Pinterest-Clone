@@ -1,0 +1,21 @@
+.upload-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background: #1a191a;
+  padding: 1rem;
+}
+
+.upload-form input,
+.upload-form button {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: none;
+}
+
+.upload-form button {
+  background: #ff69b4;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.gallery-container {
+  columns: 4 250px;
+  column-gap: 1rem;
+  padding: 1rem 2rem;
+}
+
+.image-card {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.image-card img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
+.image-card:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}

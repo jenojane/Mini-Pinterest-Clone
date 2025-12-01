@@ -1,0 +1,43 @@
+.footer {
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(59, 58, 59, 0.85), /* semi-transparent pink */
+    rgba(73, 72, 73, 0.85), 
+    rgba(85, 84, 85, 0.85)
+  );
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  animation: fadeIn 1.5s ease-in-out;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.app-name {
+  font-weight: 600;
+}
+
+.designer-name {
+  color: #fff;
+  text-shadow: 0 0 5px #373536, 0 0 10px #878084;
+  font-weight: 600;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

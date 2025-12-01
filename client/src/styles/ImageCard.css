@@ -1,0 +1,33 @@
+.image-card {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-card:hover {
+  transform: scale(1.05);
+}
+
+.image-overlay {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  gap: 8px;
+}
+
+.image-overlay button, .image-overlay a {
+  background: rgba(255,255,255,0.8);
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
